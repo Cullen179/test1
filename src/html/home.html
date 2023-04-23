@@ -1,0 +1,264 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Do Tung Lam
+ID: s3963286
+Acknowledgement: 
+Google font: https://fonts.google.com/
+Image and book description source: https://www.goodreads.com/
+Icon and logo source: https://www.flaticon.com/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font and icon import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- Google font and icon import -->
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/open-book.png" type="image/png">
+    <title>Bookshelf</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+                <a href="home.html">
+                <span class="material-symbols-outlined">
+                    import_contacts
+                </span>
+                <h1>Bookshelf</h1>
+            </a>
+        </div>
+        <nav>
+            <span id="menu" class="material-symbols-outlined">
+                menu
+            </span>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="non_fiction.html">Non-Fiction</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header -->
+
+
+    <!-- Main Content -->
+    <main>
+        <section id="intro-section">
+            <div class="intro">
+                <div class="intro-display">
+                    <iframe src="https://www.youtube.com/embed/eTFy8RnUkoU" title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="intro-content">
+                    <h2>Not all readers are leaders, but all leaders are readers.</h2>
+                    <p>Discover a new world in every book with <span>Bookshelf</span></p>
+                    <div class="intro-books">
+                        <img src="../images/non_fiction/history/book1.jpg" alt="featured book">
+                        <img src="../images/non_fiction/science/book1.jpg" alt="featured book">
+                        <img src="../images/non_fiction/business/book1.jpg" alt="featured book">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Fiction Category -->
+        <section id="fiction-category">
+            <div class="category">
+                <div class="category-info">
+                    <a href="fiction.html">Fiction</a>
+                </div>
+                <div class="books">
+                    <div class="book">
+                        <div class="book-cart">
+                            <button><span class="material-symbols-outlined">
+                                shopping_cart
+                            </span></button>
+                        </div>
+                        <a href="detail_1.html">
+                            <div class="book-img">
+                                <img src="../images/fiction/classic/book1.jpg" alt="Of Mice and Men by John Steinbeck">
+                            </div>
+                            <div class="book-info">
+                                <h3>Of Mice and Men</h3>
+                                <p>John Steinbeck</p>
+                                <div class="rating">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/empty_star.png" alt="empty rating star">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="book">
+                        <div class="book-cart">
+                            <button><span class="material-symbols-outlined">
+                                shopping_cart
+                            </span></button>
+                        </div>
+                        <a href="detail_2.html">
+                            <div class="book-img">
+                                <img src="../images/fiction/fantasy/book1.jpg" alt="Lies we sing to the sea by sarah Underwood">
+                            </div>
+                            <div class="book-info">
+                                <h3>Lies We Sing to the Sea</h3>
+                                <p>Sarah Underwood</p>
+                                <div class="rating">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="book">
+                        <div class="book-cart">
+                            <button><span class="material-symbols-outlined">
+                                shopping_cart
+                            </span></button>
+                        </div>
+                        <a href="detail_3.html">
+                            <div class="book-img">
+                                <img src="../images/fiction/romance/book1.jpg" alt="The Foxglove King by Hannah F. Whitten">
+                            </div>
+                            <div class="book-info">
+                                <h3>The Foxglove King</h3>
+                                <p>Hannah F. Whitten</p>
+                                <div class="rating">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Fiction Category -->
+
+
+        <!-- Non-fiction Category -->
+        <section id="nonfiction-category">
+            <div class="category">
+                <div class="category-info">
+                    <a href="non_fiction.html">Non-Fiction</a>
+                </div>
+                <div class="books">
+                    <div class="book">
+                        <div class="book-cart">
+                            <button><span class="material-symbols-outlined">
+                                shopping_cart
+                            </span></button>
+                        </div>
+                        <a href="detail_4.html"> 
+                            <div class="book-img">
+                                <img src="../images/non_fiction/history/book1.jpg" alt="The Angel Makers by Patti McCracken">
+                            </div>
+                            <div class="book-info">
+                                <h3>The Angel Makers</h3>
+                                <p>Patti McCracken</p>
+                                <div class="rating">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="book">
+                        <div class="book-cart">
+                            <button><span class="material-symbols-outlined">
+                                shopping_cart
+                            </span></button>
+                        </div>
+                        <a href="detail_5.html">
+                            <div class="book-img">
+                                <img src="../images/non_fiction/business/book1.jpg" alt="Bootstrapped: the American Dream by Alissa Quart">
+                            </div>
+                            <div class="book-info">
+                                <h3>Bootstrapped: the American Dream</h3>
+                                <p>Alissa Quart</p>
+                                <div class="rating">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/empty_star.png" alt="empty rating star">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="book">
+                        <div class="book-cart">
+                            <button><span class="material-symbols-outlined">
+                                shopping_cart
+                            </span></button>
+                        </div>
+                        <a href="detail_6.html">
+                            <div class="book-img">
+                                <img src="../images/non_fiction/science/book1.jpg" alt="Still Life with Bones: What Remains by Alexa Hagerty">
+                            </div>
+                            <div class="book-info">
+                                <h3>Still Life with Bones: What Remains</h3>
+                                <p>Alexa Hagerty</p>
+                                <div class="rating">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                    <img src="../images/star.png" alt="rating star">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Non-fiction Category -->
+    </main>
+    <!-- Main Content -->
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Copyright</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="footer-note">
+            <p>© All right reserved | Bookshelf 2023</p>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
